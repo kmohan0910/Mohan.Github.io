@@ -2,6 +2,26 @@
 <title>Portfolio</title>
 
 <head>
+  <style>
+    ::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+  </style>
   <link rel="stylesheet" href="css/styles.css" />
   <link rel="icon" href="images/computer.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,7 +32,7 @@
   <script src="https://kit.fontawesome.com/a0ed316acf.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body style="overflow-x: hidden; ">
   <div class="top-container">
     <h1>Mohan is a software Developer living in Bangalore , India.</h1>
 
@@ -34,10 +54,11 @@
       <h2>About Me</h2>
       <p class="intro">I am process driven software developer who enjoys solving real world problems. I was a former
         Software Development Intern at Mailmodo , Currently developing product for TCS BANCS</p>
-      <p> When not working you can find me travelling or probably at a restaurant trying new cuisines.</p>
+      <p> When not working you can find me travelling or probably at a restaurant trying new cuisines🍜</p>
     </div>
 
     <hr>
+   
     <!--<h2> Projects</h2>
     <div class="projects">
 
@@ -94,6 +115,71 @@
     </div>
   </div>
   <hr>
+
+  <div class="Work">
+
+    <h2>My Work</h2>
+    <div class="sub-work" style="overflow-y: scroll; overflow-y:hidden ;">
+      <div class="tcs">
+        <h4>CSV Parser</h4>
+        <img class="project" src="images/CSV_parser.png">
+
+        <ul>
+          <li>
+            <p1>
+              CSV Parser which can be used to create CSV files or parse a CSV file with Excel integration to copy-paste data from any existing sheets.
+            </p1>
+
+            
+
+          </li>
+          <li>
+            <p1>
+              Want to try ? <a class="email" target="_blank" href="https://createcsv-eb8ed.web.app/">Click here!!</a>
+            </p1>
+          </li>
+        </ul>
+
+
+      </div>
+      <div class="mailmodo">
+        <h4> Expense Tracker </h4>
+        <img class="project" src="images/Expense Tracker_1.png">
+        <ul>
+          <li>
+            <p1>
+              This project is an expense tracker app that helps users keep track of their income and expenditure and also display the history of their transactions. Also includes authentication to create segregation between users.</p1>
+          </li>
+          <li>
+            <p1>
+              Want to try ? <a class="email" target="_blank" href="https://myarcarius.web.app/">Click here!!</a>
+              </p>
+          </li>
+        </ul>
+      </div>
+      <div class="mailmodo" style="background-color: #8758FF;">
+        <h4> Ricettas-Project </h4>
+        <img class="project" src="images/Ricettas.png">
+        <ul>
+          <li>
+            <p1>
+              Keep log of all your favourite recipies- using FireStore Database.<br>Added Dark and Night Mode Toggle
+            </li>
+          <li>
+            <p1>
+              Want to try ? <a class="email" target="_blank" href="https://ourricetta.web.app/">Click here!!</a>
+              </p>
+          </li>
+        </ul>
+      </div>
+      <div class="end">
+        <button style="width: max-content;" class="btn" href="https://github.com/kmohan0910">  👉 View More</button>
+      </div>
+    </div>
+    
+  </div>
+</div>
+<hr>
 
   <div class="contact-me">
     <h2>Get In Touch</h2>

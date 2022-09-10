@@ -13,7 +13,8 @@ body{
   width: 100%;
   padding: 2rem;
   text-align: center;
-  padding-bottom: 20%;
+  height: 100%;
+  padding-right: 0px;
 }
 .top-container h1{
   width: 60%;
@@ -65,6 +66,27 @@ hr{
   height: 0;
 
 }
+
+
+/* Showcase */
+
+.project{
+  width: -webkit-fill-available;
+  border: 1px solid #EAF6F6;
+  border-radius: 2px;
+}
+.tcs .email{
+  text-decoration: none;
+}
+.mailmodo .email{
+  text-decoration: none;
+  color:bisque;
+}
+.end{
+  margin: 20% auto;
+}
+
+
 
 /*Work*/
 
@@ -120,6 +142,7 @@ h2{
     background-color: #66BFBF;
     width: 100%;
     padding: 2rem;
+    padding-right: 0px;
   
   }
   .bottom-container p{
