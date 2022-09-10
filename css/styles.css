@@ -85,6 +85,10 @@ hr{
 .end{
   margin: 20% auto;
 }
+.end a{
+  text-decoration: none;
+  color: whitesmoke;
+}
 
 
 
