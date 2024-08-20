@@ -1,210 +1,253 @@
-<html>
-<title>Portfolio</title>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <style>
-    ::-webkit-scrollbar {
-  width: 10px;
-}
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Mohan Reddy</title>
+  <meta name="description" content="Portfolio Template for Developer" />
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888; 
-}
+  <link rel="stylesheet" href="css/style.css" />
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555; 
-}
-  </style>
-  <link rel="stylesheet" href="css/styles.css" />
-  <link rel="icon" href="images/computer.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Outfit&family=Overpass:wght@400;500&display=swap"
-    rel="stylesheet">
-  <script src="https://kit.fontawesome.com/a0ed316acf.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
 </head>
 
-<body style="overflow-x: hidden; ">
-  <div class="top-container">
-    <h1>Mohan is a software Developer living in Bangalore , India.</h1>
-
-    <p>Need help with a project? <a class="email" target="_blank" href="mailto:kmohan0910@gmail.com">Let's Talk!</a></p>
-    <div class="social">
-      <a class="header-link" target="_blank" href="https://www.linkedin.com/in/kmohan-reddy/"><i
-          class="fa-brands fa-linkedin"></i></a>
-      <a class="header-link" target="_blank" href="https://twitter.com/imohan_reddy"><i
-          class="fa-brands fa-square-twitter"></i></a>
-      <a class="header-link" target="_blank" href="https://github.com/kmohan0910"><i
-          class="fa-brands fa-square-github"></i></a>
-    </div>
-
-  </div>
-
-  <div class="middle-container">
-    <div class="profile">
-      <img class="profile-img" src="images/Portfolio pic-modified.png" alt="">
-      <h2>About Me</h2>
-      <p class="intro">I am process driven software developer who enjoys solving real world problems. I was a former
-        Software Development Intern at Mailmodo , Currently developing product for TCS BANCS</p>
-      <p> When not working you can find me travelling or probably at a restaurant trying new cuisines🍜</p>
-    </div>
-
-    <hr>
-   
-    <!--<h2> Projects</h2>
-    <div class="projects">
-
-      <div class="sub-projects">
-        
-      </div>
-
-
-    </div>-->
-
-    <div class="Work">
-
-      <h2>Work Experiences</h2>
-      <div class="sub-work">
-        <div class="tcs">
-          <h4> Software Developer at TCS</h4>
-
-          <ul>
-            <li>
-              <p1>
-                Developing various modules of TCS BαNCS ™️ which is a TCS owned Universal Financial Solution suite which
-                is
-                running some of the major Banks' and other Financial Institutions' core IT architecture.
-              </p1>
-
-            </li>
-            <li>
-              <p1>
-                Skills: Core Java · JavaScript · Team Leadership · Java Enterprise Architecture · jQuery · JDK · Java ·
-                XML · SQL · Git · REST APIs · SOAP APIs
-              </p1>
-            </li>
-          </ul>
-
-
+<body>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img src="./assets/jpeg/mohan.jpeg" alt="Mohan Logo Image" class="header__logo-img" />
         </div>
-        <div class="mailmodo">
-          <h4> Software Development Intern at Mailmodo</h4>
-          <ul>
-            <li>
-              <p1>
-                My Primary role was to develop various components using react and add new features and functionalities
-                to
-                the existing product.</p1>
-            </li>
-            <li>
-              <p1>
-                Skills : React · Firebase · Git · REST APIs
-                </p>
-            </li>
-          </ul>
+        <span class="header__logo-sub">Mohan Reddy</span>
+      </div>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="./index.html" class="header__link"> Home </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#about" class="header__link">About </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#projects" class="header__link">
+              Projects
+            </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="mailto:kmohan0910@gmail.com" target="_blank" class="header__link"> Contact </a>
+          </li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+            class="header__main-ham-menu-close d-none" />
         </div>
       </div>
     </div>
-  </div>
-  <hr>
-
-  <div class="Work">
-
-    <h2>Projects</h2>
-    <div class="sub-work" style="overflow-y: scroll; overflow-y:hidden ;">
-      <div class="tcs">
-        <h4>CSV Parser</h4>
-        <img class="project" src="images/CSV_parser.png">
-
-        <ul>
-          <li>
-            <p1>
-              CSV Parser which can be used to create CSV files or parse a CSV file with Excel integration to copy-paste data from any existing sheets.
-            </p1>
-
-            
-
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./index.html"> Home </a>
           </li>
-          <li>
-            <p1>
-              Want to try ? <a class="email" target="_blank" href="https://createcsv-eb8ed.web.app/">Click here!!</a>
-            </p1>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#about"> About </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#projects"> Projects </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="mailto:kmohan0910@gmail.com"> Contact </a>
           </li>
         </ul>
-
-
-      </div>
-      <div class="mailmodo">
-        <h4> Expense Tracker </h4>
-        <img class="project" src="images/Expense Tracker_1.png">
-        <ul>
-          <li>
-            <p1>
-              This project is an expense tracker app that helps users keep track of their income and expenditure and also display the history of their transactions. Also includes authentication to create segregation between users.</p1>
-          </li>
-          <li>
-            <p1>
-              Want to try ? <a class="email" target="_blank" href="https://myarcarius.web.app/">Click here!!</a>
-              </p>
-          </li>
-        </ul>
-      </div>
-      <div class="mailmodo" style="background-color: #8758FF;">
-        <h4> Ricettas-Project </h4>
-        <img class="project" src="images/Ricettas.png">
-        <ul>
-          <li>
-            <p1>
-              Keep log of all your favourite recipies- using FireStore Database.<br>Added Dark and Night Mode Toggle
-            </li>
-          <li>
-            <p1>
-              Want to try ? <a class="email" target="_blank" href="https://ourricetta.web.app/">Click here!!</a>
-              </p>
-          </li>
-        </ul>
-      </div>
-      <div class="end">
-        <button style="width: max-content;" class="btn" href="https://github.com/kmohan0910"> 
-          <a target="_blank"
-          href="https://github.com/kmohan0910">👉 View More</a> </button>
       </div>
     </div>
-    
-  </div>
-</div>
-<hr>
+  </header>
+  <section class="home-hero">
+    <div class="home-hero__content">
+      <h1 class="heading-primary">Hey, My name is Mohan Reddy</h1>
+      <div class="home-hero__info">
+        <p class="text-primary">
+          Creative Software Developer focused on building fast, secure, and user-friendly applications, driven by a
+          passion for
+          innovation and continuous learning.
 
-  <div class="contact-me">
-    <h2>Get In Touch</h2>
-    <h3>If you would love to know more</h3>
-    <p class="contact-message">Love travelling as much as i do ? Let's share our experiences !!</p>
-    <button class="btn" href="mailto:kmohan0910@gmail.com"> <a class="email-button" target="_blank"
-        href="mailto:kmohan0910@gmail.com">Contact Me</a> </button>
-  </div>
-
-
-
-  <div class="bottom-container">
-    <div class="social">
-      <a class="header-link" target="_blank" href="https://www.linkedin.com/in/kmohan-reddy/"><i
-          class="fa-brands fa-linkedin"></i></a>
-      <a class="header-link" target="_blank" href="https://twitter.com/imohan_reddy"><i
-          class="fa-brands fa-square-twitter"></i></a>
-      <a class="header-link" target="_blank" href="https://github.com/kmohan0910"><i
-          class="fa-brands fa-square-github"></i></a>
+        </p>
+      </div>
+      <div class="home-hero__cta">
+        <a href="./#projects" class="btn btn--bg">Projects</a>
+      </div>
     </div>
-    <p>©Mohan</p>
-  </div>
+    <div class="home-hero__socials">
+      <div class="home-hero__social">
+        <a href="https://www.linkedin.com/in/kmohan-reddy/" target="_blank" class="home-hero__social-icon-link">
+          <img src="./assets/png/linkedin-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://github.com/mohanbyte" target="_blank" class="home-hero__social-icon-link">
+          <img src="./assets/png/github-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://twitter.com/imohanbyte" class="home-hero__social-icon-link">
+          <img src="./assets/png/medium.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://twitter.com/imohanbyte" class="home-hero__social-icon-link">
+          <img src="./assets/png/twitter-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
 
+    </div>
+    <div class="home-hero__mouse-scroll-cont">
+      <div class="mouse"></div>
+    </div>
+  </section>
+  <section id="about" class="about sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">About Me</span>
+        <span class="heading-sec__sub">
+          Here's a bit about me, what I do, and the programming and technology skills I have.
+        </span>
+      </h2>
+      <div class="about__content">
+        <div class="about__content-main">
+          <h3 class="about__content-title">Get to know me!</h3>
+          <div class="about__content-details">
+            <p class="about__content-details-para">
+              Hey! It's
+              <strong>Mohan Reddy</strong><br>
+
+            </p>
+            <p class="about__content-details-para">
+              Innovative Software Developer with a passion for crafting seamless user experiences and optimizing
+              front-end
+              performance. With experience at top tech firms like Faclon Labs and Tata Consultancy Services, I
+              specialize in
+              developing
+              responsive and efficient products, driving significant improvements in build times, and enhancing security
+              measures.
+              My focus is on building intuitive, scalable front-end products and delivering high-quality solutions that
+              exceed
+              client expectations. Eager to continue learning and growing in full-stack development while contributing
+              to exciting
+              projects. Let's create impactful digital experiences together!<br>
+
+              Feel free to <strong>contact</strong> me here.
+            </p>
+          </div>
+          <a href="mailto:kmohan0910@gmail.com" target="_blank" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
+        </div>
+        <div class="about__content-skills">
+          <h3 class="about__content-title">My Skills</h3>
+          <div class="skills">
+            <div class="skills__skill">Angular</div>
+            <div class="skills__skill">HTML</div>
+            <div class="skills__skill">SASS</div>
+
+            <div class="skills__skill">CSS</div>
+
+            <div class="skills__skill">Typescript</div>
+            <div class="skills__skill">JavaScript</div>
+
+
+            <div class="skills__skill">Webpack</div>
+            <div class="skills__skill">Express.js</div>
+            <div class="skills__skill">MongoDB</div>
+            <div class="skills__skill">Node.js</div>
+            <div class="skills__skill">RxJS</div>
+            <div class="skills__skill">Firebase</div>
+            <div class="skills__skill">GIT</div>
+            <div class="skills__skill">Jenkins</div>
+            <div class="skills__skill">Docker</div>
+            <div class="skills__skill">Nginx</div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects" class="projects sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-bg">
+        <span class="heading-sec__main">Projects</span>
+        <span class="heading-sec__sub">
+          Here you will find some of the personal projects that I created with each project containing it's link so you
+          could try it on your own.
+        </span>
+      </h2>
+
+      <div class="projects__content">
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/png/traversl.png" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Traversal</h3>
+            <p class="projects__row-content-desc">
+              Dynamic, browser-based map application that allows users to interact with and personalize maps directly in
+              their web
+              browser. Key features include:<br>
+
+              Interactive map interface for easy navigation<br>
+              Functionality for users to add custom location markers<br>
+              Entirely client-side operation, ensuring quick responsiveness and user privacy<br>
+              Intuitive user interface for seamless location management<br>
+            </p>
+            <a href="https://traversal-fcfd8.web.app/dashboard" class="btn btn--med btn--theme dynamicBgClr"
+              target="_blank">Live Demo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Social</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/kmohan-reddy/">
+              <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" href="https://github.com/mohanbyte" rel="noreferrer">
+              <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/imohanbyte">
+              <img class="main-footer__icon" src="./assets/jpeg/twitter.jpg" alt="icon" />
+            </a>
+
+          </div>
+        </div>
+        <div class="main-footer__row main-footer__row-2">
+          <h4 class="heading heading-sm text-lt">Mohan Reddy</h4>
+          <p class="main-footer__short-desc">
+            Software Developer focused on building fast, secure, and scalable web applications with a strong emphasis on
+            front-end
+            development.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./index.js"></script>
 </body>
 
 </html>
