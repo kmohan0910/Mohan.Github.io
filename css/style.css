@@ -238,7 +238,7 @@ textarea {
       rgba(0, 98, 185, 0.8),
       rgba(0, 98, 185, 0.8)
     ),
-    url(../../assets/svg/common-bg.svg);
+    url(../../assets/svg/topography.svg);
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -876,9 +876,10 @@ textarea {
   margin-right: 1.5rem;
   font-size: 1.6rem;
   background: rgba(153, 153, 153, 0.2);
-  border-radius: 5px;
+  border-radius: 14px;
   font-weight: 600;
   color: #777;
+  font-family: monospace;
 }
 
 .mouse {

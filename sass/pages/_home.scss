@@ -5,7 +5,7 @@
       rgba($themeClrPrimary, 0.8),
       rgba($themeClrPrimary, 0.8)
     ),
-    url(../../assets/svg/common-bg.svg);
+    url(../../assets/svg/topography.svg);
   background-position: center;
 
   height: 100vh;
@@ -22,7 +22,7 @@
   &__socials {
     position: absolute;
     top: 50%;
-    border: 2px solid #eee;
+    border: 2px solid #5e5353;
     border-left: 2px solid #eee;
     transform: translateY(-50%);
     @include respond(tab-port) {
@@ -49,10 +49,10 @@
     display: block;
     padding: 1.2rem;
     border-bottom: 2px solid #eee;
-    transition: background .3s;
+    transition: background 0.3s;
 
     &:hover {
-      background: rgba(#fff,.1);
+      background: rgba(#fff, 0.1);
     }
 
     &--bd-none {
